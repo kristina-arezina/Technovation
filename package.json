@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@bit/formidablelabs.react-animations.slide-in-left": "^1.0.0",
     "@material-ui/core": "^4.9.5",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -10,7 +11,8 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0",
-    "style-it": "^2.1.4"
+    "style-it": "^2.1.4",
+    "styled-components": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
