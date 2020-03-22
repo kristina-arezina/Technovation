@@ -1,25 +1,27 @@
 import React from 'react';
-import Header from "./Images/BottomImage.js";
+import BigPicture from "./Images/BottomImage.js";
 
 function ImagesOutput() {
+
   const css = {
     visibility: "hidden",
       padding: 0,
-      paddingTop: "10px",
-      display: "block",
+      position: "relative",
       width: "25px",
-      height: "4px"}
+      position: 'absolute'
+      }
 
-  const wraper = { display: "block",
+  const wraper = {
     position: "relative",
     width: "25px",
-    top:"800px",
-  left:"1175px"}
+    top:"0px",
+    left:"1220px",
+    position: 'absolute'
+  }
+
   return (
-  <div style={wraper}>
-  <Header style={css}/>
-
-
+    <div style={wraper}>
+      <BigPicture style={css}/>
     </div>
   );
 }

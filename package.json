@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@bit/formidablelabs.react-animations.fade-in-right": "^1.0.0",
     "@bit/formidablelabs.react-animations.slide-in-left": "^1.0.0",
     "@material-ui/core": "^4.9.5",
     "@testing-library/jest-dom": "^4.2.4",
