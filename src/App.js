@@ -26,11 +26,12 @@ function App() {
     <SlideInLeftDiv style={{zIndex:2, position: 'absolute'}}>
       <Name/>
     </SlideInLeftDiv>
+    <FadeInRightDiv  style={{zIndex:1}}>
+      <ImagesOutput />
+    </FadeInRightDiv>
 </RemoveScroll>
 
-      <FadeInRightDiv  style={{zIndex:1}}>
-        <ImagesOutput />
-      </FadeInRightDiv>
+
     </div>
   );
 }

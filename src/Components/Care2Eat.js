@@ -17,7 +17,8 @@ class Name extends React.Component {
                       marginLeft: "80px",
                       color:"#3e6c42"
                     }}
-                      >CARE2EAT
+                      >
+                      <b>CARE2EAT</b>
                   </p>
                   <p style={{
                       height:"80px",
