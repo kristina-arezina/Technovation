@@ -8,7 +8,6 @@ function ImagesOutput() {
       padding: 0,
       position: "relative",
       width: "25px",
-      position: 'absolute'
       }
 
   const wraper = {
@@ -16,7 +15,6 @@ function ImagesOutput() {
     width: "25px",
     top:"0px",
     left:"1220px",
-    position: 'absolute'
   }
 
   return (

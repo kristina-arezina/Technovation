@@ -5,7 +5,6 @@
   "dependencies": {
     "@bit/formidablelabs.react-animations.fade-in-right": "^1.0.0",
     "@bit/formidablelabs.react-animations.slide-in-left": "^1.0.0",
-    "@material-ui/core": "^4.9.5",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
