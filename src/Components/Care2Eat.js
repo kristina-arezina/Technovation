@@ -27,27 +27,25 @@ class Name extends React.Component {
                       >Empowering Sustainable Eating
                   </p>
                   <hr style={{display: "block", marginTop: "0.5em",
-marginBottom: "0.5em",
-marginLeft: "auto",
-marginRight: "auto",
-borderStyle: "inset",
-height:"2px",
-borderWidth: "1px",
-backgroundColor:"#3e6c42"
-}}/>
+                    marginBottom: "0.5em",
+                    marginLeft: "auto",
+                    marginRight: "auto",
+                    borderStyle: "inset",
+                    height:"2px",
+                    borderWidth: "1px",
+                    backgroundColor:"#3e6c42"
+                  }}/>
                   <p style={{
                       fontSize:"25px",
                       height:"50px",
                       padding: "40px",
-
                       }}
                       >Awareness leading to sustainable food choices which power a better future.</p>
-
                   <p style={{
                       height:"100px",
                       fontSize:"20px",
-                    paddingTop:"80px",
-                    color:"#6b9b6d"
+                      paddingTop:"80px",
+                      color:"#6b9b6d"
                   }}
                       >TheurloftheappstoreofCare2Eat.com</p>
             </div>
