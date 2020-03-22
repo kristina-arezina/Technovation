@@ -1,10 +1,10 @@
 import React from 'react';
-import bottomImage from './bottom.png';
+import bigpicture from './bigpicture.png';
 
 
-console.log(bottomImage); // /logo.84287d09.png
+console.log(bigpicture); // /logo.84287d09.png
 function Header() {
   // Import result is the URL of your image
-  return <img src={bottomImage} alt="bottomImage" />;
+  return <img src={bigpicture} alt="bigpicture" />;
 }
 export default Header;

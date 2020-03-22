@@ -1,7 +1,5 @@
 import React from 'react';
 import Header from "./Images/BottomImage.js";
-import MiddleImage from "./Images/MiddleImage.js";
-import TopImage from "./Images/TopImage.js";
 
 function ImagesOutput() {
   const css = {
@@ -19,9 +17,7 @@ function ImagesOutput() {
   left:"1175px"}
   return (
   <div style={wraper}>
-  <TopImage style={css}/>
-  <MiddleImage style={css}/>
-      <Header style={css}/>
+  <Header style={css}/>
 
 
     </div>
