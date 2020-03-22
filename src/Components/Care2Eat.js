@@ -7,20 +7,20 @@ class Name extends React.Component {
 
     return (
       <div>
-      <MediaQuery query="(max-width: 1000px)">
+      <MediaQuery query="(max-width: 1180px)">
       {matches =>
                     matches ? (
-            <div style={{paddingTop:"300px", paddingLeft:"80px"}}>
+                      // small screen
+            <div style={{backgroundColor: "#f4f4f4",opacity: 0.9, paddingTop:"200px", paddingLeft:"20px"}}>
                   <p style={{
                       height:"100px",
-                      fontSize:"110px",
+                      fontSize:"100px",
                       fontFamily:'Noto Sans SC',
                       marginTop: "80px",
                       marginBottom: "100px",
                       marginRight: "150px",
-                      marginLeft: "80px",
                       color:"#3e6c42",
-                      backgroundColor:"pink"
+
                     }}
                       >
                       <b>CARE2EAT</b>
@@ -28,7 +28,7 @@ class Name extends React.Component {
                   <p style={{
                       height:"80px",
                       padding: "40px",
-                      fontSize:"60px",
+                      fontSize:"50px",
                       fontFamily:"Source Sans Pro', sans-serif"}}
                       >Empowering Sustainable Eating
                   </p>
@@ -42,13 +42,14 @@ class Name extends React.Component {
                       height:"100px",
                       fontSize:"20px",
                       paddingTop:"80px",
-                      color:"#6b9b6d"
+                      color:"#6b9b6d",
+                      paddingRight:"200px"
                   }}
                       >TheurloftheappstoreofCare2Eat.com</p>
             </div>
             ):(
-
-              <div style={{paddingTop:"300px", paddingLeft:"80px"}}>
+// Full Screen
+              <div style={{paddingTop:"150px", paddingLeft:"600px"}}>
                     <p style={{
                         height:"100px",
                         fontSize:"110px",
@@ -56,7 +57,7 @@ class Name extends React.Component {
                         marginTop: "80px",
                         marginBottom: "100px",
                         marginRight: "150px",
-                        marginLeft: "80px",
+                        marginLeft: "800px",
                         color:"#3e6c42"
                       }}
                         >
@@ -65,7 +66,7 @@ class Name extends React.Component {
                     <p style={{
                         height:"80px",
                         padding: "40px",
-                        fontSize:"60px",
+                        fontSize:"40px",
                         fontFamily:"Source Sans Pro', sans-serif"}}
                         >Empowering Sustainable Eating
                     </p>
@@ -76,7 +77,7 @@ class Name extends React.Component {
                       borderStyle: "inset",
                       height:"2px",
                       borderWidth: "1px",
-                      backgroundColor:"#f4f4"
+                      backgroundColor:"#3e6c42"
                     }}/>
                     <p style={{
                         fontSize:"25px",
@@ -88,107 +89,15 @@ class Name extends React.Component {
                         height:"100px",
                         fontSize:"20px",
                         paddingTop:"80px",
-                        color:"#6b9b6d"
+                        color:"#6b9b6d",
+                        paddingLeft:"270px",
                     }}
                         >TheurloftheappstoreofCare2Eat.com</p>
               </div>
             )}
                </MediaQuery>
 
-               <MediaQuery query="(max-width: 610)">
-               {matches =>
-                             matches ? (
-                               <div style={{paddingTop:"300px", paddingLeft:"80px"}}>
-                                     <p style={{
-                                         height:"100px",
-                                         fontSize:"110px",
-                                         fontFamily:'Noto Sans SC',
-                                         marginTop: "80px",
-                                         marginBottom: "100px",
-                                         marginRight: "150px",
-                                         marginLeft: "80px",
-                                         color:"blue"
-                                       }}
-                                         >
-                                         <b>CARE2EAT</b>
-                                     </p>
-                                     <p style={{
-                                         height:"80px",
-                                         padding: "40px",
-                                         fontSize:"60px",
-                                         fontFamily:"Source Sans Pro', sans-serif"}}
-                                         >Empowering Sustainable Eating
-                                     </p>
-                                     <hr style={{display: "block", marginTop: "0.5em",
-                                       marginBottom: "0.5em",
-                                       marginLeft: "auto",
-                                       marginRight: "auto",
-                                       borderStyle: "inset",
-                                       height:"2px",
-                                       borderWidth: "1px",
-                                       backgroundColor:"#f4f4"
-                                     }}/>
-                                     <p style={{
-                                         fontSize:"25px",
-                                         height:"50px",
-                                         padding: "40px",
-                                         }}
-                                         >Awareness leading to sustainable food choices which power a better future.</p>
-                                     <p style={{
-                                         height:"100px",
-                                         fontSize:"20px",
-                                         paddingTop:"80px",
-                                         color:"#6b9b6d"
-                                     }}
-                                         >TheurloftheappstoreofCare2Eat.com</p>
-                               </div>
-                             ):(
-                               <div style={{paddingTop:"300px", paddingLeft:"80px"}}>
-                                     <p style={{
-                                         height:"100px",
-                                         fontSize:"110px",
-                                         fontFamily:'Noto Sans SC',
-                                         marginTop: "80px",
-                                         marginBottom: "100px",
-                                         marginRight: "150px",
-                                         marginLeft: "80px",
-                                         color:"green"
-                                       }}
-                                         >
-                                         <b>CARE2EAT</b>
-                                     </p>
-                                     <p style={{
-                                         height:"80px",
-                                         padding: "40px",
-                                         fontSize:"60px",
-                                         fontFamily:"Source Sans Pro', sans-serif"}}
-                                         >Empowering Sustainable Eating
-                                     </p>
-                                     <hr style={{display: "block", marginTop: "0.5em",
-                                       marginBottom: "0.5em",
-                                       marginLeft: "auto",
-                                       marginRight: "auto",
-                                       borderStyle: "inset",
-                                       height:"2px",
-                                       borderWidth: "1px",
-                                       backgroundColor:"#f4f4"
-                                     }}/>
-                                     <p style={{
-                                         fontSize:"25px",
-                                         height:"50px",
-                                         padding: "40px",
-                                         }}
-                                         >Awareness leading to sustainable food choices which power a better future.</p>
-                                     <p style={{
-                                         height:"100px",
-                                         fontSize:"20px",
-                                         paddingTop:"80px",
-                                         color:"#6b9b6d"
-                                     }}
-                                         >TheurloftheappstoreofCare2Eat.com</p>
-                               </div>
-                             )}
-                             </MediaQuery>
+
                               </div>
 
   )}
