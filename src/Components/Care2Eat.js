@@ -1,5 +1,6 @@
 import React from 'react';
 import MediaQuery from 'react-responsive';
+import {RemoveScroll} from 'react-remove-scroll';
 
 class Name extends React.Component {
   render() {
@@ -11,6 +12,7 @@ class Name extends React.Component {
       {matches =>
                     matches ? (
                       // small screen
+
             <div style={{backgroundColor: "#f4f4f4",opacity: 0.9, paddingTop:"100px", paddingLeft:"20px"}}>
                   <p style={{
                       height:"100px",
@@ -47,8 +49,10 @@ class Name extends React.Component {
                   }}
                       >TheurloftheappstoreofCare2Eat.com</p>
             </div>
+
             ):(
 // Full Screen
+            <RemoveScroll>
               <div style={{paddingTop:"150px", paddingLeft:"600px"}}>
                     <p style={{
                         height:"100px",
@@ -95,12 +99,14 @@ class Name extends React.Component {
                         >TheurloftheappstoreofCare2Eat.com</p>
               </div>
             )}
-               </MediaQuery>
+</RemoveScroll>
+)}
+              </MediaQuery>
 
 
                               </div>
 
-  )}
-}
+
+)}}
 
 export default Name;

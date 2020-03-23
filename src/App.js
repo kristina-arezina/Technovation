@@ -5,7 +5,7 @@ import ImagesOutput from "./Components/ImagesOutput.js"
 import styled, { keyframes } from "styled-components";
 import SlideInLeft from "@bit/formidablelabs.react-animations.slide-in-left";
 import FadeInRight from "@bit/formidablelabs.react-animations.fade-in-right";
-import {RemoveScroll} from 'react-remove-scroll';
+
 
 
 
@@ -22,14 +22,14 @@ const SlideInLeftDiv = styled.div`
 function App() {
   return (
     <div className="App">
-    <RemoveScroll>
+
     <SlideInLeftDiv style={{zIndex:2, position: 'absolute'}}>
       <Name/>
     </SlideInLeftDiv>
     <FadeInRightDiv  style={{zIndex:1}}>
       <ImagesOutput />
     </FadeInRightDiv>
-</RemoveScroll>
+
 
 
     </div>
