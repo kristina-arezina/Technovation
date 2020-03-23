@@ -11,10 +11,10 @@ class Name extends React.Component {
       {matches =>
                     matches ? (
                       // small screen
-            <div style={{backgroundColor: "#f4f4f4",opacity: 0.9, paddingTop:"200px", paddingLeft:"20px"}}>
+            <div style={{backgroundColor: "#f4f4f4",opacity: 0.9, paddingTop:"100px", paddingLeft:"20px"}}>
                   <p style={{
                       height:"100px",
-                      fontSize:"100px",
+                      fontSize:"80px",
                       fontFamily:'Noto Sans SC',
                       marginTop: "80px",
                       marginBottom: "100px",
@@ -28,7 +28,7 @@ class Name extends React.Component {
                   <p style={{
                       height:"80px",
                       padding: "40px",
-                      fontSize:"50px",
+                      fontSize:"40px",
                       fontFamily:"Source Sans Pro', sans-serif"}}
                       >Empowering Sustainable Eating
                   </p>
