@@ -99,12 +99,12 @@ class Name extends React.Component {
                         >TheurloftheappstoreofCare2Eat.com</p>
               </div>
             )}
-</RemoveScroll>
-)}
-              </MediaQuery>
+              </RemoveScroll>
+            )}
+            </MediaQuery>
 
 
-                              </div>
+            </div>
 
 
 )}}
