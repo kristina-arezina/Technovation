@@ -6,4 +6,5 @@ Additionally, it directs traffic to the AppStore where a user can download the a
 
 ### Design
 
-The logo for this app was designed by Gina 🎨.\ The design for this web app uses vanilla CSS.
+The logo for this web app was designed by Gina 🎨.
+\ The design for this web app uses vanilla CSS.
