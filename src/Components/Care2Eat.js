@@ -1,6 +1,7 @@
 import React from 'react';
 import MediaQuery from 'react-responsive';
 import {RemoveScroll} from 'react-remove-scroll';
+import logoImage from "./Images/empower2.png"
 
 class Name extends React.Component {
   render() {
@@ -12,7 +13,6 @@ class Name extends React.Component {
       {matches =>
                     matches ? (
                       // small screen
-
             <div style={{backgroundColor: "#f4f4f4",opacity: 0.9, paddingTop:"100px", paddingLeft:"20px"}}>
                   <p style={{
                       height:"100px",
@@ -22,12 +22,15 @@ class Name extends React.Component {
                       marginBottom: "100px",
                       marginRight: "150px",
                       color:"#3e6c42",
+                      opacity: 0.9,
 
                     }}
                       >
                       <b>CARE2EAT</b>
                   </p>
+          <img style={{height:"100px",paddingTop:"20px"}}src={logoImage} alt="Logo" />
                   <p style={{
+                    opacity: 0.9,
                       height:"80px",
                       padding: "40px",
                       fontSize:"40px",
@@ -38,12 +41,14 @@ class Name extends React.Component {
                       fontSize:"25px",
                       height:"50px",
                       padding: "40px",
+                      opacity: 0.9,
                       }}
                       >Awareness leading to sustainable food choices which power a better future.</p>
                   <p style={{
+                    opacity: 0.9,
                       height:"100px",
                       fontSize:"20px",
-                      paddingTop:"80px",
+                      paddingTop:"60px",
                       color:"#6b9b6d",
                       paddingRight:"200px"
                   }}
@@ -54,6 +59,7 @@ class Name extends React.Component {
 // Full Screen
             <RemoveScroll>
               <div style={{paddingTop:"150px", paddingLeft:"600px"}}>
+              <img style={{   height:"100px"}}src={logoImage} alt="Logo" />
                     <p style={{
                         height:"100px",
                         fontSize:"110px",
@@ -67,6 +73,7 @@ class Name extends React.Component {
                         >
                         <b>CARE2EAT</b>
                     </p>
+
                     <p style={{
                         height:"80px",
                         padding: "40px",
@@ -92,7 +99,6 @@ class Name extends React.Component {
                     <p style={{
                         height:"100px",
                         fontSize:"20px",
-                        paddingTop:"80px",
                         color:"#6b9b6d",
                         paddingLeft:"270px",
                     }}
