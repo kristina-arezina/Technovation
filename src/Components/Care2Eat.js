@@ -28,7 +28,7 @@ class Name extends React.Component {
                       >
                       <b>CARE2EAT</b>
                   </p>
-          <img style={{height:"100px",paddingTop:"20px"}}src={logoImage} alt="Logo" />
+          <img style={{height:"100px",paddingTop:"20px", opacity: 1.5}}src={logoImage} alt="Logo" />
                   <p style={{
                     opacity: 0.9,
                       height:"80px",
