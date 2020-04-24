@@ -44,15 +44,7 @@ class Name extends React.Component {
                       opacity: 0.9,
                       }}
                       >Awareness leading to sustainable food choices which power a better future.</p>
-                  <p style={{
-                    opacity: 0.9,
-                      height:"100px",
-                      fontSize:"20px",
-                      paddingTop:"60px",
-                      color:"#6b9b6d",
-                      paddingRight:"200px"
-                  }}
-                      >TheurloftheappstoreofCare2Eat.com</p>
+
             </div>
 
             ):(
@@ -96,13 +88,6 @@ class Name extends React.Component {
                         padding: "40px",
                         }}
                         >Awareness leading to sustainable food choices which power a better future.</p>
-                    <p style={{
-                        height:"100px",
-                        fontSize:"20px",
-                        color:"#6b9b6d",
-                        paddingLeft:"270px",
-                    }}
-                        >TheurloftheappstoreofCare2Eat.com</p>
               </div>
             )}
               </RemoveScroll>
